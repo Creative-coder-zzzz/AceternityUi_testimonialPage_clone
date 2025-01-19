@@ -616,15 +616,18 @@ footer{
   .content{
     position: static;
   }
+
   .nav-links{
-    display: block;
+    display: flex;
   }
+
+  .action-buttons{
+    display: flex;
+    z-index: 20;
+  }
+
   .main-content{
   margin-left: 30px;
- 
-  }
-  footer{
-    z-index:50;
   }
   .menu{
     display: none;
@@ -643,6 +646,7 @@ footer{
   }
   .action-buttons{
     display: none;
+    z-index: 50;
   }
   .menu{
     display: block;
